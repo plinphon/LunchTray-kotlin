@@ -136,7 +136,6 @@ fun LunchTrayApp() {
     }
 }
 
-
 @Composable
 fun getCurrentScreen(navController: androidx.navigation.NavController): LunchTrayScreen {
     val currentBackStackEntry by navController.currentBackStackEntryAsState()
