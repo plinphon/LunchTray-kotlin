@@ -143,4 +143,3 @@ fun getCurrentScreen(navController: androidx.navigation.NavController): LunchTra
         currentBackStackEntry?.destination?.route ?: LunchTrayScreen.Start.name
     )
 }
-
